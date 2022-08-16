@@ -195,11 +195,7 @@ F {
   background-attachment: fixed;
 }
 body {
-  background-image: url(../img/Pics/F.png);
-  background-size: contain;
-  background-position: center;
-  background-attachment: fixed;
-  background-color: #000000;
+  background-color: #2B2342;
     font-family: sans-serif;
     margin: 0 auto;
 }
