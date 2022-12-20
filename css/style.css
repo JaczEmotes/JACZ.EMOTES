@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family: arial;
 }
-
 ae{
   background: url(../img/Pics/O3.png);
   background-repeat: no-repeat;
@@ -43,7 +42,7 @@ ae{
     height: 1000px
     position: absolute;
     top: 0;
-    background: rgba(187, 187, 187, 0.4);
+    background: rgba(255, 228, 0, 0.4);
     -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
     margin-left: -750px;
@@ -56,7 +55,7 @@ ae{
     height: 1000px;
     position: absolute;
     top: 0;
-    background: rgba(187, 187, 187, 0.4);
+    background: rgba255, 228, 0, 0.4);
     -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg);
     margin-left: -800px;
@@ -69,7 +68,7 @@ ae{
     height: 1000px;
     position: absolute;
     top: 0;
-    background: rgba(187, 187, 187, 0.4);
+    background: rgba(255, 228, 0, 0.2);
     -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
     margin-left: -800px;
@@ -85,7 +84,7 @@ ae{
     height: 1000px;
     position: absolute;
     top: 0;
-    background: rgba(187, 187, 187, 0.4);
+    background: rgba(255, 228, 0, 0.2);
     -webkit-transform: rotate(30deg);
     transform: rotate(30deg);
     margin-left: -850px;
@@ -180,7 +179,7 @@ justify-content: center;
 }
 
 F {
-  background-color: #2F2E32;
+  background-color: #9B00FF;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -196,7 +195,7 @@ F {
   background-attachment: fixed;
 }
 body {
-  background-color: #2F2E32;
+  background-color: #FF0087;
     font-family: sans-serif;
     margin: 0 auto;
 }
@@ -487,10 +486,9 @@ font-weight: bold;
 }
 
 footer {
-  background: #BBBBBB;
+  background-color: #FFA800;
   width: 1500px;
   margin-top: 25px;
-}
 }
 .icon-text {
   width: 100%;
@@ -520,7 +518,7 @@ footer {
 }
 
 .footer-nav a:hover {
-  color: #2F2E32;
+  color: #FF2875;
 }
 
 .social {
@@ -540,7 +538,7 @@ footer {
 }
 
 .social i:hover {
-  color: #2F2E32;
+  color: #FF2875;
 }
 
 footer.second {
@@ -550,7 +548,7 @@ footer.second {
 }
 
 footer.second a:hover {
-  color: #2F2E32;
+  color: #FF2875;
 }
 
 footer.second p, .second a {
