@@ -6,170 +6,13 @@
     font-family: arial;
 }
 ae{
-  background: url(../img/Pics/O3.png);
+  background: url(../img/Pics/F.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
   background-attachment: fixed;
 }
-.content-all{
-    width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
 
-.content-img{
-    width: 500px;
-    height: 500px;
-    margin: auto;
-    margin-top: 100px;
-    position: relative;
-    float: left;
-    overflow: hidden;
-}
-
-.content-img img{
-    width: 100%;
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-}
-
-.content-1{
-    width: 1000px;
-    height: 1000px
-    position: absolute;
-    top: 0;
-    background: rgba(255, 228, 0, 0.4);
-    -webkit-transform: rotate(-30deg);
-    transform: rotate(-30deg);
-    margin-left: -750px;
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-}
-
-.content-2{
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    top: 0;
-    background: rgba255, 228, 0, 0.4);
-    -webkit-transform: rotate(-30deg);
-    transform: rotate(-30deg);
-    margin-left: -800px;
-    -webkit-transition: all 500ms;
-    transition: all 500ms;
-}
-
-.content-3{
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    top: 0;
-    background: rgba(255, 228, 0, 0.2);
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-    margin-left: -800px;
-    margin-top: -500px;
-    -webkit-transition: all 900ms;
-    transition: all 900ms;
-    -webkit-box-shadow: 0px 1px 20px -5px black;
-    box-shadow: 0px 1px 20px -5px black;
-}
-
-.content-4{
-    width: 1000px;
-    height: 1000px;
-    position: absolute;
-    top: 0;
-    background: rgba(255, 228, 0, 0.2);
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-    margin-left: -850px;
-    margin-top: -500px;
-    -webkit-transition: all 700ms;
-    transition: all 700ms;
-}
-
-.content-img:hover .content-1{
-    width: 150%;
-    -webkit-transition: all 900ms;
-    transition: all 900ms;
-}
-
-.content-img:hover .content-2{
-    width: 150%;
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-}
-
-.content-img:hover .content-3{
-    width: 150%;
-    -webkit-transition: all 500ms;
-    transition: all 500ms;
-}
-
-.content-img:hover .content-4{
-    width: 150%;
-    -webkit-transition: all 700ms;
-    transition: all 700ms;
-}
-
-.content-img:hover img{
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-    opacity: 0.95;
-}
-
-.content-txt{
-    position: absolute;
-    top: 0;
-    width: 400px;
-    padding: 10px;
-    z-index: 10;
-    color: white;
-    text-align: center;
-    margin-top: 100px;
-}
-
-.content-txt h2{
-    font-size: 30px;
-    opacity: 0;
-    -webkit-transform: scale(0.2);
-    transform: scale(0.2);
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-}
-
-.content-txt p{
-    font-size: 20px;
-    margin-top: 10px;
-    opacity: 0;
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-}
-
-.content-img:hover h2{
-    opacity: 1;
-    -webkit-transition: all 300ms;
-    transition: all 300ms;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-}
-
-.content-img:hover p{
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: all 500ms;
-    transition: all 500ms;
-}
 #contenido{
   width: 1300px  ;
   padding: 0 auto;
@@ -179,7 +22,7 @@ justify-content: center;
 }
 
 F {
-  background-color: #9B00FF;
+  background: url(../img/Pics/F.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -188,14 +31,15 @@ F {
   margin: 0 auto;
 }
 #contenido{
-  background: url(../img/Pics/O2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  background-attachment: fixed;
+
+
 }
 body {
-  background-color: #FF0087;
+  background-image: url(../img/Pics/F.png);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #000000;
     font-family: sans-serif;
     margin: 0 auto;
 }
@@ -486,23 +330,23 @@ font-weight: bold;
 }
 
 footer {
-  background-color: #FFA800;
-  width: 1500px;
-  margin-top: 25px;
+  background-image: url(../img/Pics/F2.png);
+  width: 1200px;
+  margin-top: 30px;
 }
 .icon-text {
   width: 100%;
-  margin: 0 auto;
+  margin: 10 auto;
 }
 
 .icon-text-icon {
   float: left;
-  width: 20%;
+  width: 30%;
   padding: 4%;
 }
 .icon-text-text {
   float: left;
-  width: 60%;
+  width: 100%;
   padding: 4% 4% 2% 0;
   font-size:
 }
@@ -512,7 +356,7 @@ footer {
 }
 
 .footer-nav a {
-  font-size: 140%;
+  font-size: 100%;
   color: #FFF;
   font-weight: 200;
 }
@@ -531,24 +375,24 @@ footer {
 }
 
 .social i {
-  font-size: 420%;
+  font-size: 400%;
   margin: 0.7%;
   padding: 4%;
   color: #FFF;
 }
 
 .social i:hover {
-  color: #FF2875;
+  color: #FBFF00;
 }
 
 footer.second {
   border-top: 1px solid #FFF;
   text-align: center;
-  margin: 0;
+  margin: 10;
 }
 
 footer.second a:hover {
-  color: #FF2875;
+  color: #FBFF00;
 }
 
 footer.second p, .second a {
@@ -557,44 +401,3 @@ footer.second p, .second a {
   font-size: 160%;
   line-height: 155%;
 }
-
-@media screen and (max-width: 1080px) {
-  p {
-    font-size: 120%;
-  }
-  h3 {
-    font-size: 170%;
-  }
-  header {
-    height: 80px;
-    position: relative;
-  }
-  header #logo {
-    margin: 15px 0 20px -25px;
-  }
-
-  .FPI  img {
-    display: block;
-    max-width: 100%;
-    float: left;
-    display: inline-block;
-    vertical-align: top;
-    padding: 10px 70px;
-    width: 360px;
-  }
-
-
-
-  .footer-nav {
-    margin: 0 auto;
-    text-align: center;
-    padding: 5%;
-  }
-
-  .footer-nav li {
-    padding: 1%;
-  }
-  .sidebar iframe {
-    float: right;
-    width: 95%;
-  }
