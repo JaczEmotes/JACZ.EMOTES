@@ -401,8 +401,13 @@ footer.second p, .second a {
   font-size: 160%;
   line-height: 155%;
 }
-
 @media screen and (max-width: 1080px) {
+body {
+    background: url(../img/Pics/FM.png);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    margin: 0 auto;
+    }
   p {
     font-size: 100%;
   }
