@@ -401,3 +401,35 @@ footer.second p, .second a {
   font-size: 160%;
   line-height: 155%;
 }
+
+@media screen and (max-width: 1080px) {
+  p {
+    font-size: 100%;
+  }
+  h3 {
+    font-size: 150%;
+  }
+  header {
+    height: 80px;
+    position: relative;
+  }
+  header #logo {
+    margin: 15px 0 20px -25px;
+  }
+
+
+
+  .footer-nav {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5%;
+  }
+
+  .footer-nav li {
+    padding: 1%;
+  }
+  .sidebar iframe {
+    float: right;
+    width: 95%;
+  }
+}
